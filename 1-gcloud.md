@@ -1,5 +1,7 @@
-# Cloud Shell Notes 
-## gcloud 
+# Cloud Shell Notes
+
+## gcloud
+
     gcloud init 
     gcloud auth login 
     gcloud auth application-default login 
@@ -13,12 +15,13 @@
     gcloud project delete my_new_project 
     gcloud billing accounts list
 
-## 
-    gsutil 
+## gsutil
+
 clear the shell prompt
 export PS1 ='$'
 
 ## Some cloud shell bash commands
+
     pwd 
     clear 
     ls 
@@ -26,7 +29,8 @@ export PS1 ='$'
     lscpu 
     htop 
 
-## gsutil  --> means google storage utility 
+## gsutil  --> means google storage utility
+
 ### gsutil mb gs://rashid_storage
 
     This created storage space called rashid_storage 
