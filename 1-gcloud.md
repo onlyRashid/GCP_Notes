@@ -17,8 +17,8 @@
 
 ## gsutil
 
-clear the shell prompt
-export PS1 ='$'
+    clear the shell prompt 
+    export PS1 ='$' 
 
 ## Some cloud shell bash commands
 
