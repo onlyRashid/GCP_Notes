@@ -13,8 +13,6 @@
     gcloud project delete my_new_project 
     gcloud billing accounts list
 
-
-
 ## 
     gsutil 
 clear the shell prompt
