@@ -1,5 +1,7 @@
 # Google Compute Engine (GCE)
 
+## Google Compute (Spot Provisioning)
+
     Hamberger Menu 
         > Compute Engine 
             > VM Instance > Create Instance         
