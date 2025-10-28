@@ -1,6 +1,6 @@
-## Git Notes
+# Git Notes
 
-### pushing from local to main
+## pushing from local to main
 
     git status
     git add . 

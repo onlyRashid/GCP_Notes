@@ -1,4 +1,4 @@
-## Google Compute Engine (GCE)
+# Google Compute Engine (GCE)
 
     Hamberger Menu 
         > Compute Engine 
