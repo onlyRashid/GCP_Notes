@@ -1,4 +1,13 @@
-# Cloud Shell Notes
+# Google Cloud Notes
+
+## IaaS vs PaaS 
+
+    IaaS 
+        includes VM, Compute resources
+        IaaS Model pay for resources ahead of time 
+    PaaS 
+        includes 
+
 
 ## gcloud
 
