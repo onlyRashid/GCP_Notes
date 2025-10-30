@@ -55,7 +55,7 @@
 
 ## Identity and Access Management (IAM)
 
-### IAM 
+### IAM
 
     - IAM defines who (principals) can do what (roles/permissions) on which resources (org > folder > project > resource).
     - Principals: user accounts, Google groups, service accounts, Cloud Identity domains.
@@ -63,6 +63,7 @@
     - Deny policies (where used) are evaluated before allow and can block granted permissions.
     - Role types:
         - Basic: Owner, Editor, Viewer, Billing Admin (broad).
+            - When basic role is applied to a Google Cloud project, they affect all resources in that project.
         - Predefined: service-specific least privilege (e.g. compute.instanceAdmin).
         - Custom: created at org or project when predefined are too broad.
     - Use least privilege: prefer predefined; create custom only when needed.
@@ -79,7 +80,7 @@
         - Custom: tailor exact permissions; only at org or project level (not folder).
     - Use least privilege: prefer predefined; create custom only when predefined is too broad.
 
-### Service Accounts 
+### Service Accounts
 
 ## gcloud
 
