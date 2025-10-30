@@ -15,11 +15,30 @@
 
 ## Resource Hierarchy
 
+    Google cloud resources have four levels starting from the bottom up 
+
     Resources (Level 01)
         * These represent virtual machines, Cloud Storage buckets, tables in BigQuery, or anything else in Google Cloud.
 
+    Projects (Level 02 )
+        * Resources are organized into Projects, which sit on the second level.
+    
+    Folder ( Level 03 )
+        * Projects can be organized into folders, or even subfolders.
+    
+    Organization ( Level 04 )
+        * At the top level is an organization node, which encompasses all the projects, folders, and resources in your organization.
+
 ![Google Cloud resource hierarchy showing four levels: Organization at top, Folders containing multiple projects, Projects containing various resources like VMs and storage buckets, with IAM policies applied at each level for access control and inheritance](Resource-hierarchy.png)
-![Resource Hierarcy Diagram](cloud-hierarchy.svg)
+
+## Policy Inheritance
+
+    * Policies can be defined at the project, folder, and organization node levels.
+    * Some Google Cloud services allow policies to be applied to individual resources, too.
+    * Policies are also inherited downward ( Level 4 down to Level 1)
+    * This means that if you apply a policy to a folder, it will also apply to all of the projects within that folder.
+
+![Policy Inheritance](policy-inheritance.svg)
 
 ## gcloud
 
