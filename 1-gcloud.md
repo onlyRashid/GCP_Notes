@@ -33,7 +33,8 @@
     Organization ( Level 04 )
         * At the top level is an organization node, which encompasses all the projects, folders, and resources in your organization.
 
-![Google Cloud resource hierarchy showing four levels: Organization at top, Folders containing multiple projects, Projects containing various resources like VMs and storage buckets, with IAM policies applied at each level for access control and inheritance](Resource-hierarchy.png)
+![Google Cloud resource hierarchy](Resource-hierarchy.png)
+
 
 ## Policy Inheritance
 
@@ -43,6 +44,16 @@
     * This means that if you apply a policy to a folder, it will also apply to all of the projects within that folder.
 
 ![Policy Inheritance](policy-inheritance.svg)
+
+## Google Cloud Resource Manager
+
+    * Google Cloud’s Resource Manager tool is designed to programmatically help you manage projects.
+    * It’s an API that can gather a list of all the projects associated with an account, create new projects, update existing projects, and delete projects.
+    * It can even recover projects that were previously deleted,and can be accessed through the RPC API and the REST API.
+
+![Google Resource Manager](resourcemanager.png)
+
+
 
 ## gcloud
 
