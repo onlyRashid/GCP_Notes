@@ -1,6 +1,6 @@
 # Google Cloud Notes
 
-## IaaS vs PaaS 
+## IaaS vs PaaS
 
     IaaS 
         * includes VMs, Compute resources
@@ -13,7 +13,13 @@
         * SaaS applicationss run in the cloud as a service and are consumed directly over the internet by end users.
         * Popular Google applications such as Gmail, Docs, and Drive, that are a part of Google Workspace, are all examples of SaaS.
 
+## Resource Hierarchy
 
+    Resources (Level 01)
+        * These represent virtual machines, Cloud Storage buckets, tables in BigQuery, or anything else in Google Cloud.
+
+![Resource Hierarchy](Resource-hierarchy.png)
+![Resource Hierarcy Diagram](cloud-hierarchy.svg)
 
 ## gcloud
 
