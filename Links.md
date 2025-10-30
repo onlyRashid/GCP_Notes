@@ -9,10 +9,9 @@
 
 [Set Up an App Dev Environment on Google Cloud](https://www.cloudskillsboost.google/course_templates/637)
 
-
 ![Resource Hierarcy Diagram](cloud-hierarchy.svg)
 
-[policy-inheritance.svg]: path/to/policy-inheritance.svg
+![policy-inheritance.svg]: path/to/policy-inheritance.svg
 
 [Role Types Interactive](https://docs.cloud.google.com/iam/docs/roles-permissions#role_types)
 
