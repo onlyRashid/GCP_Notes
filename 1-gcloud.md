@@ -3,10 +3,16 @@
 ## IaaS vs PaaS 
 
     IaaS 
-        includes VM, Compute resources
-        IaaS Model pay for resources ahead of time 
+        * includes VMs, Compute resources
+        * IaaS Model pay for resources ahead of time 
     PaaS 
-        includes 
+        * includes App Engine 
+        * Serverless technologies offered by Google include Cloud Run, which allows customers to deploy their containerized microservices based application in a fully-managed environment
+        * Cloud Run functions, which manages event-driven code as a pay-as-you-go service.
+    SaaS
+        * SaaS applicationss run in the cloud as a service and are consumed directly over the internet by end users.
+        * Popular Google applications such as Gmail, Docs, and Drive, that are a part of Google Workspace, are all examples of SaaS.
+
 
 
 ## gcloud
