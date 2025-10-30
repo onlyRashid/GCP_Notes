@@ -18,7 +18,7 @@
     Resources (Level 01)
         * These represent virtual machines, Cloud Storage buckets, tables in BigQuery, or anything else in Google Cloud.
 
-![Resource Hierarchy](Resource-hierarchy.png)
+![Google Cloud resource hierarchy showing four levels: Organization at top, Folders containing multiple projects, Projects containing various resources like VMs and storage buckets, with IAM policies applied at each level for access control and inheritance](Resource-hierarchy.png)
 ![Resource Hierarcy Diagram](cloud-hierarchy.svg)
 
 ## gcloud
