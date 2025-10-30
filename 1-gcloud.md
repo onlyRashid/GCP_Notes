@@ -3,7 +3,7 @@
 ## IaaS vs PaaS
 
     IaaS 
-        * includes VMs, Compute resources
+        * includes VMs, Compute resources, Storage Buckets
         * IaaS Model pay for resources ahead of time 
     PaaS 
         * includes App Engine 
@@ -22,6 +22,10 @@
 
     Projects (Level 02 )
         * Resources are organized into Projects, which sit on the second level.
+        * Projects are the basis for enabling and using Google Cloud services, like managing APIs, enabling billing, adding and removing collaborators, and enabling other Google services.
+        * Each Google Cloud project has three identifying attributes: a project ID, a project name, and a project number.
+
+![Projects](projects.png)
     
     Folder ( Level 03 )
         * Projects can be organized into folders, or even subfolders.
